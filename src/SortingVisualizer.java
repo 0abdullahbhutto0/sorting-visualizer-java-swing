@@ -336,8 +336,13 @@ public class SortingVisualizer extends JPanel implements ActionListener {
         int n2 = right - mid;
         int[] leftArray = new int[n1];
         int[] rightArray = new int[n2];
-        System.arraycopy(array, left, leftArray, 0, n1);
-        System.arraycopy(array, mid + 1, rightArray, 0, n2);
+        for (int i = 0; i < n1; i++) {
+            leftArray[i] = array[left + i];
+        }
+
+        for (int i = 0; i < n2; i++) {
+            rightArray[i] = array[mid + 1 + i];
+        }
 
         int i = 0, j = 0, k = left;
         while (i < n1 && j < n2) {
