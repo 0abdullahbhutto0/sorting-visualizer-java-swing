@@ -87,7 +87,7 @@ Java Swing library (included in standard JDK)
 ## 🧰 Installation
 
 # Clone the repository
-git clone https://github.com/yourusername/sorting-visualizer-java-swing.git
+git clone https://github.com/0abdullahbhutto0/sorting-visualizer-java-swing.git
 
 # Navigate to the project directory
 cd sorting-visualizer-java-swing
