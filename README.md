@@ -2,15 +2,15 @@
 
 A Java Swing-based application that provides interactive visualization of various sorting algorithms on both arrays and linked lists.
 
-##🎯 Objective
+## 🎯 Objective
 
 This project creates a comprehensive Sorting Algorithm Visualizer designed to help users understand how different sorting algorithms work through visual representation. The visualizer allows users to observe the step-by-step execution of sorting algorithms with interactive controls for enhanced learning.
 
-##📋 Description
+## 📋 Description
 
 The Sorting Algorithm Visualizer is a Java application built using the Swing framework that demonstrates various sorting algorithms through dynamic visual representations. Arrays are displayed as bars with heights corresponding to their values, while linked lists are shown as connected nodes. The application provides real-time visualization of the sorting process with user-controlled speed settings.
 
-##🔑 Key Features
+## 🔑 Key Features
 
 Interactive Visualization: Watch sorting algorithms execute step-by-step
 
@@ -22,9 +22,9 @@ Dual Data Structure Support: Visualize sorting on both arrays and linked lists
 
 Multiple Algorithms: Choose from various sorting algorithms
 
-##🔧 Supported Algorithms
+## 🔧 Supported Algorithms
 
-##🟦 Array Sorting Algorithms
+## 🟦 Array Sorting Algorithms
 
 Bubble Sort – Compare and swap adjacent elements
 
@@ -38,7 +38,7 @@ Quick Sort – Partition-based sorting
 
 Heap Sort – Binary heap-based sorting
 
-##🔗 Linked List Sorting Algorithms
+## 🔗 Linked List Sorting Algorithms
 
 Bubble Sort – Adapted for linked list traversal
 
@@ -46,7 +46,7 @@ Insertion Sort – Insert nodes in correct position
 
 Selection Sort – Select and reposition nodes
 
-##🎨 Visualization Components
+## 🎨 Visualization Components
 
 Array Bars: Elements drawn using fillRect() with drawRect() outlines
 
@@ -56,7 +56,7 @@ Pointer Visualization: Array pointers shown using drawLine()
 
 Dynamic Updates: paintComponent() method overridden for real-time display refresh
 
-##🖱️ User Interface Controls
+## 🖱️ User Interface Controls
 
 Algorithm Selection Buttons: Trigger different sorting algorithms
 
@@ -66,7 +66,7 @@ Pause/Resume Functionality: Control sorting process execution
 
 Interactive Controls: User-friendly interface for algorithm exploration
 
-##⚙️ Threading and Performance
+## ⚙️ Threading and Performance
 
 SwingWorker Implementation: Prevents UI freezing during sorting operations
 
@@ -76,15 +76,15 @@ Speed Control: Thread.sleep() duration adjusted via slider input
 
 Responsive UI: Maintains interface responsiveness during visualization
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
-##📦 Prerequisites
+## 📦 Prerequisites
 
 Java Development Kit (JDK) 8 or higher
 
 Java Swing library (included in standard JDK)
 
-##🧰 Installation
+## 🧰 Installation
 
 # Clone the repository
 git clone https://github.com/yourusername/sorting-visualizer-java-swing.git
@@ -97,7 +97,8 @@ javac src/*.java
 
 # Run the application
 java -cp src Main
-🎮 How to Use
+
+## 🎮 How to Use
 Launch the Application: Run the main class to start the visualizer
 
 Choose Data Structure: Select between array or linked list visualization
@@ -110,7 +111,7 @@ Pause/Resume: Use control buttons to pause or resume sorting
 
 Observe: Watch the step-by-step sorting process unfold
 
-🎨 Visualization Features
+## 🎨 Visualization Features
 Color-coded Elements: Different colors represent various states (comparing, swapping, sorted)
 
 Real-time Updates: See changes as they happen during the sorting process
@@ -119,7 +120,7 @@ Interactive Speed Control: Slow down to understand complex operations or speed u
 
 Clear Visual Indicators: Pointers and highlighting show current algorithm focus
 
-📚 Educational Value
+## 📚 Educational Value
 This visualizer serves as an excellent educational tool for:
 
 Computer Science Students: Understanding algorithm complexity and behavior
@@ -130,7 +131,7 @@ Algorithm Analysis: Comparing performance characteristics visually
 
 Teaching Aid: Instructors can use it to demonstrate sorting concepts
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Here are ways you can contribute:
 
 Add new sorting algorithms
@@ -143,7 +144,7 @@ Add algorithm complexity information
 
 Fix bugs and optimize performance
 
-📌 Development Guidelines
+## 📌 Development Guidelines
 
 # Fork the repository
 
